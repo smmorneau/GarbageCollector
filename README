@@ -2,7 +2,7 @@ Author:       Steely Morneau
 Project:      GarbageCollector
 Last updated: May 2012
 -----------------------------
-A mark-and-compact single-heap collector.
+A mark-and-compact single-heap collector with automatic collection and heap defragmentation.
 The garbage collector manages any object by inserting extra fields into each 
 object's struct for bookkeeping and to reference the class descriptor (meta data) 
 associated with each object.
